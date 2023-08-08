@@ -7,15 +7,6 @@ class FileSystemIterator:
         self.only_dirs = only_dirs
     def __iter__(self):
         return self
-    def next(self):
-        if not self.__iter__():
-            raise StopIteration
-        current_dir = os.path.join(self.root, self.current_path)
-        if self.is_directory_only:
-            yield current_dir
-        else:
-            for file in os.listdir(current_dir):
-                yield file
 def degenerator(root: str, only_files=False, only_dirs=False, pattern=None) -> str:
     root_txt = ''
     for i in walk(root):
@@ -33,13 +24,12 @@ def degenerator(root: str, only_files=False, only_dirs=False, pattern=None) -> s
                     elif pattern is None:
                         yield Path(root_txt + '/' + k)
 
-for i in degenerator('C:/users/mdemin/testdir'):
+for i in degenerator('E:\pycharmprojects/nic/testdir'):
     print(i)
-d = degenerator('C:/users/mdemin/testdir')
+d = degenerator('E:\pycharmprojects/nic/testdir')
 marker = True
 try:
     while marker:
         print(next(d))
 except StopIteration:
-    marker = False
-    print('Пизда')
+    raise StopIteration
