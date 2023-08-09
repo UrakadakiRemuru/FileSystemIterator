@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5de1137-d1e0-46ff-b514-4cc9b1b8e774" name="Changes" comment="del" />
+    <list default="true" id="b5de1137-d1e0-46ff-b514-4cc9b1b8e774" name="Changes" comment="1. Посмотреть как добавить функцию генератор в класс. &#10;2. Посмотреть вывод файла">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,16 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/mdemin/PycharmProjects/nic",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mdemin/PycharmProjects/nic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="nic" />
@@ -106,39 +108,7 @@
       <option name="project" value="LOCAL" />
       <updated>1691433680781</updated>
     </task>
-    <task id="LOCAL-00003" summary="Done">
-      <option name="closed" value="true" />
-      <created>1691514962816</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691514962816</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Done">
-      <option name="closed" value="true" />
-      <created>1691515135389</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691515135389</updated>
-    </task>
-    <task id="LOCAL-00005" summary="protobuf task added">
-      <option name="closed" value="true" />
-      <created>1691597792382</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691597792382</updated>
-    </task>
-    <task id="LOCAL-00006" summary="del">
-      <option name="closed" value="true" />
-      <created>1691604593603</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691604593603</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,9 +124,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Посмотреть как добавить функцию генератор в класс. &#10;2. Посмотреть вывод файла" />
-    <MESSAGE value="Done" />
-    <MESSAGE value="protobuf task added" />
-    <MESSAGE value="del" />
-    <option name="LAST_COMMIT_MESSAGE" value="del" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Посмотреть как добавить функцию генератор в класс. &#10;2. Посмотреть вывод файла" />
   </component>
 </project>
